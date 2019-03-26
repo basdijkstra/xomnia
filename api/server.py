@@ -19,7 +19,7 @@ def add_numbers():
     try:
         result = int(first_number) + int(second_number)
     except ValueError:
-        return jsonify({"error": "Both first_number and second_number need to be integer values"}), 400
+        return jsonify({"error": "both first_number and second_number need to be integer values"}), 400
 
     return jsonify({"result": result}), 200
 
