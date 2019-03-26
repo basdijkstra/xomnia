@@ -1,0 +1,8 @@
+# test_name: Check that addition works for multiple input / output combinations
+
+# Write a data driven test for the addition API running at http://localhost:5000/add
+# Parameterize the first_number and second_number fields in the request body, POST it
+# to the endpoint and check that the element 'result' is present using the special !anything
+# (bonus points if you *do* figure out how to actually check on the result value in a data
+# driven manner :)
+
