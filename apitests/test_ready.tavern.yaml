@@ -1,9 +1,0 @@
-test_name: Check that US zip code 90210 corresponds to Beverly Hills
-
-stages:
-  - name: Verify place name in response body
-    request:
-      url: http://api.zippopotam.us/us/90210
-      method: GET
-    response:
-      status_code: 200
